@@ -1,0 +1,76 @@
+/* ===== common css style start ===== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    max-width: 1148px;
+    margin: 0 auto;
+}
+/* ===== common css style end ===== */
+
+/* ===== navbar css style start here ==== */
+#navbar{
+    padding: 15px 0;
+    background-color: rgb(240, 178, 178);
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    
+}
+.menu{
+    width: 60%;
+    
+    
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.menu ul li a{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    color: #036E8A;
+     font-family: "Montserrat", sans-serif;
+}
+.nav_actions{
+    width: 20%;
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+}
+.nav_action_item{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 1px solid #036E8A;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_action_item i{
+    color: #036E8A;
+    font-size: 10px;
+}
+/* ===== navbar css style end here ==== */
+
+/* ===== banner css style start here ==== */
+/* ===== banner css style end here ==== */
