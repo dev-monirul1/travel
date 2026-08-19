@@ -469,6 +469,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* ===== gallary css style start here ==== */
 #gallary{
     padding: 110px 0;
+    
 }
 .gal_shape{
     position: relative;
@@ -478,6 +479,10 @@ h1,h2,h3,h4,h5,h6,p{
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
+}
+.gal_title{
+    position: relative;
+    z-index: 999;
 }
 .gal_title .sec_title{
     font-size: 60px;
@@ -580,12 +585,14 @@ h1,h2,h3,h4,h5,h6,p{
 #newsletter{
     padding: 100px 0 130px 0;
     position: relative;
-    z-index: 99;
+    z-index: 999;
 }
 .newsletter_gal{
     display: flex;
     gap: 23px;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 99;
 }
 .newsletter_gal_item{
     width: 275px;
@@ -600,6 +607,8 @@ h1,h2,h3,h4,h5,h6,p{
 .newsletter_box{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 99;
 }
 .newsletter_box_img{
     width: 514px;
@@ -624,7 +633,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .newsletter_form .form_group{
     position: relative;
-    
+    z-index: 99;
 }
 .newsletter_form .form_group i{
     position: absolute;
@@ -647,6 +656,11 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .newsletter_form .form_group input::placeholder{
     color: #036E8A;
+    
+}
+.newsletter_form .form_group input:focus{
+    border: 1px solid #036E8A;
+    outline: none;
     
 }
 .newsletter_form button{
