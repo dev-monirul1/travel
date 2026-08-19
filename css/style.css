@@ -542,7 +542,401 @@ h1,h2,h3,h4,h5,h6,p{
 /* ===== gallary css style end here ==== */
 
 /* ===== counter css style start here ==== */
+#counter{
+    margin: 112px 0 97px;
+    padding: 90px 0 120px 0;
+    background: url("../images/counter\ img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 999;
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.counter_item{
+    width: 22%;
+    text-align: center;
+}
+.counter_item h3{
+    color: #707070;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
+.counter_item span{
+    color: #707070;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
 /* ===== counter css style end here ==== */
 
 /* ===== newsletter css style start here ==== */
+#newsletter{
+    padding: 100px 0 130px 0;
+    position: relative;
+    z-index: 99;
+}
+.newsletter_gal{
+    display: flex;
+    gap: 23px;
+    margin-bottom: 20px;
+}
+.newsletter_gal_item{
+    width: 275px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+.newsletter_gal_item:last-child{
+    width: 850px;
+}
+.newsletter_box{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter_box_img{
+    width: 514px;
+    height: 482px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.newsletter_box_form{
+    width: 566px;
+
+}
+.newsletter_box_form .sec_subtitle{
+    color: #036E8A;
+    padding-top: 82px;
+    padding-bottom: 30px;
+}
+.newsletter_form{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.newsletter_form .form_group{
+    position: relative;
+    
+}
+.newsletter_form .form_group i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(50%,-50%);
+    color: #036E8A;
+    font-size: 30px;
+}
+.newsletter_form .form_group input{
+    border: 1px solid #036E8A;
+    padding: 28px 63px ;
+    border-radius: 15px;
+    color: #036E8A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+    width: 330px;
+}
+.newsletter_form .form_group input::placeholder{
+    color: #036E8A;
+    
+}
+.newsletter_form button{
+    background-color: #FF8000;
+    border-radius: 15px;
+    padding: 22px 40px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    border: none;
+}
 /* ===== newsletter css style end here ==== */
+
+/* ===== brand css style end here ==== */
+#brand{
+    margin-top: 130px;
+    margin-bottom: 120px;
+    position: relative;
+    z-index: 99;
+}
+.brand_wrapper{
+    border: 3px solid #036E8A;
+    border-radius: 8px;
+    padding: 70px;
+    display: flex;justify-content: space-between;
+    align-items: center;
+}
+.brand_item{
+    
+    
+    position: relative;
+}
+.brand_item::after{
+    position: absolute;
+    content: "";
+    right: -63px;
+    top: 50%;
+    transform: translate(0,-50%);
+    height: 73px;
+    width: 3px;
+    background-color: #036E8A;
+    border-radius: 5px;
+}
+.brand_item:last-child::after{
+    background: transparent;
+}
+/* ===== brand css style end here ==== */
+
+/* ===== review css style start here ==== */
+#review{
+   
+}
+.review_shape{
+    position: relative;
+}
+.review_shape img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-70%);
+}
+.review_container{
+    position: relative;
+    z-index: 999;
+}
+.review_heading{
+    padding-bottom: 111px;
+}
+.review_heading .sec_title{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 23px;
+}
+.review_heading .peragraph{
+    color: #000;
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+.review_wrapper{
+    display: flex;
+    column-gap: 72px;
+    row-gap: 77px;
+    flex-wrap: wrap;
+
+}
+.review_item{
+    width: 538px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 40px 59px;
+    box-shadow: -1px 0px 17px -4px rgba(0,0,0,0.15);
+    -webkit-box-shadow: -1px 0px 17px -4px rgba(0,0,0,0.15);
+    -moz-box-shadow: -1px 0px 17px -4px rgba(0,0,0,0.15);
+    transition: all linear 0.3s;
+}
+.review_img{
+    width: 113px;
+    height: 113px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.review_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.review_details{
+    margin-top: 26px;
+    text-align: center;
+}
+.review_details h4{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+    color: #036E8A;
+    font-family: "Montserrat", sans-serif;
+}
+.review_details h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: #262525;
+    font-family: "Montserrat", sans-serif;
+}
+.review_rating{
+    margin: 8px 0 20px 0;
+    color: #FF8000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.review_details .peragraph{
+    color: #000;
+}
+.review_item:nth-child(odd):hover{
+    background-color: #036E8A;
+}
+.review_item:nth-child(even):hover{
+    background-color: #FF8000;
+}
+.review_item:nth-child(odd):hover .review_details h4, .review_item:nth-child(odd):hover .review_details h5, .review_item:nth-child(odd):hover .review_details .review_rating, .review_item:nth-child(odd):hover .review_details .peragraph, .review_item:nth-child(even):hover .review_details h4, .review_item:nth-child(even):hover .review_details h5, .review_item:nth-child(even):hover .review_details .review_rating, .review_item:nth-child(even):hover .review_details .peragraph{
+    color: #fff;
+}
+
+
+/* ===== review css style end here ==== */
+
+/* ===== message_us css style start here ==== */
+#msg_us{
+    margin: 156px 0 120px 0;
+}
+.msg_main_box{
+    padding: 85px;
+    border-radius: 50px;
+    position: relative;
+    background-color: #036E8A;
+}
+.msg_us_wrapper{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+
+}
+.msg_us_wrapper h2{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    margin-bottom: 135px;
+}
+.msg_us_wrapper h2::after{
+    position: absolute;
+    content: "";
+    width: 778px;
+    height: 3px;
+    border-radius: 8px;
+    background-color: #fff;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.msg_us_wrapper .peragraph{
+    font-size: 30px;
+    font-weight: 500;
+    width: 661px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 103px;
+}
+.msg_us_wrapper .peragraph::after{
+    position: absolute;
+    content: "";
+    width: 411px;
+    height: 3px;
+    border-radius: 8px;
+    background-color: #fff;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.msg_us_btn{
+    text-align: center;
+}
+.msg_us_btn button{
+    background-color: #FF8000;
+    padding: 21px 67px;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+}
+.msg_img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* ===== message_us css style end here ==== */
+
+/* ===== footer css style start here ==== */
+.footer_wrapper{
+    padding-bottom: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    color: #036E8A;
+    position: relative;
+    margin-bottom: 70px;
+}
+.footer_title::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -32px;
+    width: 142px;
+    height: 2px;
+    background-color: #036E8A;
+}
+.footer_link{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.footer_link li a{
+    color: #262525;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+}
+.copyRight{
+    background-color: #FF8000;
+    padding: 42px 0;
+}
+.copyRight_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.footer_social .nav_action_item{
+    width: 29px;
+    height: 29px;
+    border: 1px solid #e0d9d9;
+}
+.footer_social .nav_action_item i{
+    color: #fff;
+    font-size: 12px;
+}
+/* ===== footer css style end here ==== */
+/* font-family: "Montserrat", sans-serif; */
