@@ -347,7 +347,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .package_item_inner .sec_title{
     font-size: 40px;
-    transition: all linear 0.3s;
+    transition: all linear 0.4s;
 }
 .package_item_inner .price{
     font-size: 60px;
@@ -360,7 +360,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: #036E8A;
     font-family: "Montserrat", sans-serif;
     margin-top: 6px;
-    transition: all linear 0.3s;
+    transition: all linear 0.4s;
 
 }
 .package_item_inner ul{
@@ -376,7 +376,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .package_item_inner ul li i{
     color: #036E8A;
-    transition: all linear 0.3s;
+    transition: all linear 0.4s;
 }
 .package_item_inner ul li span{
     font-family: "Montserrat", sans-serif;
@@ -404,7 +404,7 @@ h1,h2,h3,h4,h5,h6,p{
     bottom: 0;
     transform: translate(-50%,50%);
     width: 200px;
-    transition: all linear 0.3s;
+    transition: all linear 0.4s;
 }
 .trial{
     text-align: center;
