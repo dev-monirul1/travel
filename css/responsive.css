@@ -34,14 +34,8 @@
     gap: 4px;
 }
 .nav_action_item{
-    width: 23px;
-    height: 23px;
-    border-radius: 50%;
-    border: 1px solid #036E8A;
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 13px;
+    height: 13px;
 }
 .nav_action_item i{
     color: #036E8A;
