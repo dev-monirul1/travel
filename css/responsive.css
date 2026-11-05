@@ -64,12 +64,9 @@
 }
 .banner_search{
     
-    width: 428px;
-    height: 60px;
-    border: 1px solid #036E8A;
-    border-radius: 8px;
-    overflow: hidden;
-    position: relative;
+    width: 214px;
+    height: 30px;
+    border-radius: 6px;
 }
 .banner_search input{
     width: 100%;
