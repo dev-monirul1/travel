@@ -31,10 +31,7 @@
     font-size: 7px;
 }
 .nav_actions{
-    width: 20%;
-    display: flex;
-    gap: 8px;
-    justify-content: end;
+    gap: 4px;
 }
 .nav_action_item{
     width: 23px;
