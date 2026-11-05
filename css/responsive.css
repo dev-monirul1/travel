@@ -9,17 +9,11 @@
     margin: 0 auto;
 }
 .sec_subtitle{
-    color: black;
     font-size: 14px;
-    text-transform: uppercase;
     font-weight: 400;
-    line-height: normal;
-    font-family: "Montserrat", sans-serif;
 }
 .sec_title{
-    font-family: "Montserrat", sans-serif;
-    color: #036E8A;
-    font-size: 54px;
+    font-size: 26px;
     line-height: normal;
     font-weight: 700;
 }
