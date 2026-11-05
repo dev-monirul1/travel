@@ -69,16 +69,10 @@
     border-radius: 6px;
 }
 .banner_search input{
-    width: 100%;
-    height: 100%;
-    outline: none;
     border: none;
     padding-left: 95px;
     padding-right: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-    color: #036E8A;
+    font-size: 10px;
 }
 .banner_search input ::placeholder{
     color: #036E8A;
