@@ -49,16 +49,10 @@
 }
 .banner_wrapper{
     max-width: 360px;
-    margin: 0 auto;
 }
 .banner_wrapper h1{
-    color: white;
-    font-size: 88px;
-    font-weight: 700;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    max-width: 650px;
-    line-height: 1.1;
+    font-size: 44px;
+    max-width: 325px;
 }
 .banner_wrapper .peragraph{
     margin-top: 24px;
