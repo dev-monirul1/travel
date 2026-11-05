@@ -44,12 +44,8 @@
 
 /* ===== banner css style start here ==== */
 #banner{
-    background: url(../images/pic\ 1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 257px;
-    padding-bottom: 200px;
+    padding-top: 128px;
+    padding-bottom: 100px;
 }
 .banner_wrapper{
     max-width: 784px;
