@@ -21,12 +21,8 @@
 
 /* ===== navbar css style start here ==== */
 #navbar{
-    padding: 15px 0;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 30px;
-    width: 100%;
+    padding: 8px 0;
+    top: 15px;
 }
 .nav_wrapper{
     display: flex;
