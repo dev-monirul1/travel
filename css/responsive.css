@@ -94,16 +94,15 @@
     gap: 40px;
 }
 .destination_content{
-    width: 560px;
-    
+    width: 180px;   
 }
 .destination_content .sec_title{
-    margin-top: 32px;
-    width: 90%;
+    margin-top: 16px;
+    width: 50%;
 }
 .destination_content .peragraph{
     color: #000;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .destination_video{
     display: inline-block;
