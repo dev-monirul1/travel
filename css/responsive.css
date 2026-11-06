@@ -101,16 +101,12 @@
     width: 50%;
 }
 .destination_content .peragraph{
-    color: #000;
     margin-top: 15px;
 }
 .destination_video{
-    display: inline-block;
-    width: 508px;
-    height: 369px;
-    border-radius: 25px;
-    overflow: hidden;
-    position: relative;
+    width: 254px;
+    height: 185px;
+    border-radius: 20px;
 }
 .destination_video img{
     height: 100%;
