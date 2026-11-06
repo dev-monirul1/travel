@@ -114,18 +114,8 @@
     object-fit: cover;
 }
 .destination_video_Icon{
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    
+    width: 45px;
+    height: 45px;  
 }
 .destination_video_Icon i{
     color: #036E8A;
