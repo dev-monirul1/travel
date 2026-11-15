@@ -146,7 +146,7 @@
 .star_wrapper{
     display: flex;
     gap: 15px;align-items: center;
-    margin-top: 14px;
+    margin-top: 15px;
 }
 .star_wrapper i{
     color: #FF8000;
