@@ -347,7 +347,7 @@ h1,h2,h3,h4,h5,h6,p{
     transition: all linear 0.3s;
 }
 .package_item_inner .sec_title{
-    font-size: 40px;
+    font-size: 39px;
     transition: all linear 0.4s;
 }
 .package_item_inner .price{
