@@ -355,7 +355,7 @@ h1,h2,h3,h4,h5,h6,p{
     transition: all linear 0.3s;
 }
 .package_item_inner h5{
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 400;
     line-height: normal;
     color: #036E8A;
